@@ -37,21 +37,20 @@ To install the dependencies in Ubuntu, run the following command in the terminal
 
 =sudo apt-get install python-numpy python-scipy python-matplotlib python-wxtools=
 
-On OS X, download the latest Python 2.x release and install it, then run the following command:
+On OS X, download the Anaconda python 2 release and install it, then run the following command:
 
-=pip install numpy scipy matplotlib wx=
+=conda install numpy scipy matplotlib wxpython=
 
-*** Adding the library to $PYTHONPATH
 **** Mac OS X
-I wrote a blog post with instructions for this, you can view it [[http://www.gnsiva.com/2014/07/mac-os-x-adding-project-to-pythonpath.html][here]].
+
 *** Running the programs
 Then to run one of the programs navigate to the program directory e.g.:
 
 =cd Amphitrite/gui/AtroposGui/=
 
-And launch the python file ending in 'Gui' e.g.:
+And launch the python (with *pythonw*) file ending in 'Gui' e.g.:
 
-=python AtroposGui.py=
+=pythonw AtroposGui.py=
 
 ** Fin
 
