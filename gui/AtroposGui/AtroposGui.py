@@ -5,10 +5,10 @@
 
 __author__ = "Ganesh N. Sivalingam <g.n.sivalingam@gmail.com"
 
+import MassSpectrumPanel
 import wx,os,copy
 import ListCtrlOptimisation, ListCtrlAssigningSpecies 
 import ListCtrlSmoothing,AtroposGuiSettings
-import MassSpectrumPanel
 import cPickle as pickle
 from lib import utils
 import gui.guiFunctions as gf
@@ -375,7 +375,7 @@ Please reduce by doing one of the following:
 
 # end of class AtroposGui
 if __name__ == "__main__":
-    app = wx.PySimpleApp(0)
+    app = wx.App(0)
     wx.InitAllImageHandlers()
     frame_1 = AtroposGui(None, -1, "")
     app.SetTopWindow(frame_1)
